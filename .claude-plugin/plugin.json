@@ -1,0 +1,10 @@
+{
+  "name": "trackiq-amazon-share-of-shelf",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Share of Shelf — an Agent Skill measuring how much of Amazon page one a brand owns for its revenue-bearing keywords, and which competitors hold the rest. Requires an Oxylabs scraper connection.",
+  "author": { "name": "TrackIQ", "url": "https://trackiq.com" },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-share-of-shelf",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-share-of-shelf",
+  "license": "MIT",
+  "keywords": ["amazon", "amazon-seller", "share-of-shelf", "share-of-search", "serp-tracking", "page-one", "competitor-analysis", "organic-rank", "claude-skill", "agent-skills", "trackiq"]
+}

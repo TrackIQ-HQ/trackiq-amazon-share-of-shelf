@@ -1,0 +1,24 @@
+{
+  "name": "trackiq-amazon-share-of-shelf",
+  "title": "TrackIQ: Amazon Share of Shelf",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Measures how much of Amazon page one a brand owns for the keywords that carry its revenue — organic slots, sponsored slots and Amazon's Choice badges per keyword, rolled up by category, against the competitor brands holding the rest, with week-over-week movement and the revenue behind every keyword the brand is absent from.",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": ["trackiq"],
+    "tools": ["list_marketplaces", "get_product_performance"],
+    "filesystem": false,
+    "network": true,
+    "third_party_apis": ["oxylabs"],
+    "third_party_note": "Requires an Oxylabs scraper connection for live Amazon search results: 1 credit per keyword per run, plus a one-off 1 credit per ASIN for brand resolution. There is no first-party substitute — without it the report cannot be produced."
+  },
+  "delivery": {
+    "methods": ["in-chat", "file", "slack", "n8n", "email"],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. file needs a filesystem, n8n needs network, slack and email need their tool connected. Outward sends confirm first."
+  },
+  "fallback": "None for the shelf itself. Live search results cannot be substituted from first-party data, and the skill says so rather than approximating page one from rank tracking.",
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-share-of-shelf",
+  "license": "MIT"
+}

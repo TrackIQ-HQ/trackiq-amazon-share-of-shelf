@@ -2,8 +2,8 @@
   "name": "trackiq-amazon-share-of-shelf",
   "title": "TrackIQ: Amazon Share of Shelf",
   "category": "search",
-  "version": "1.0.0",
-  "updated": "2026-09-18",
+  "version": "1.0.1",
+  "updated": "2026-10-06",
   "summary": "Measures how much of Amazon page one a brand owns for the keywords that carry its revenue \u2014 organic slots, sponsored slots and Amazon's Choice badges per keyword, rolled up by category, against the competitor brands holding the rest, with week-over-week movement and the revenue behind every keyword the brand is absent from.",
   "changelog": "First public release.",
   "requires": {
